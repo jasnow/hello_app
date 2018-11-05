@@ -55,7 +55,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.1)
     crass (1.0.4)
     erubi (1.7.1)
     execjs (2.7.0)
@@ -65,7 +65,7 @@ GEM
     i18n (1.1.1)
       concurrent-ruby (~> 1.0)
     iniparse (1.4.4)
-    jbuilder (2.7.0)
+    jbuilder (2.8.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
     jquery-rails (4.3.3)
