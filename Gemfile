@@ -6,10 +6,10 @@ ruby '2.6.2'
 
 gem 'sass-rails'
 gem 'uglifier'
-gem 'coffee-rails'
+gem 'coffee-rails', git: 'https://github.com/rails/coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder'
+gem 'jbuilder', git: 'https://github.com/rails/jbuilder'
 gem 'rails-html-sanitizer'
 gem 'sdoc', group: :doc
 gem 'overcommit'
