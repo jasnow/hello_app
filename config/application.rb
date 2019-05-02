@@ -21,5 +21,7 @@ module HelloApp
     # config.i18n.default_locale = :de
 
     # For not swallow errors in after_commit/after_rollback callbacks.
+
+    config.generators.javascript_engine = :js
   end
 end
