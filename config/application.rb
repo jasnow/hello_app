@@ -23,5 +23,7 @@ module HelloApp
     # For not swallow errors in after_commit/after_rollback callbacks.
 
     config.generators.javascript_engine = :js
+
+    config.active_record.legacy_connection_handling = false
   end
 end
