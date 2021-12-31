@@ -18,7 +18,7 @@ gem 'web-console', group: :development
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'byebug'
+  gem 'debug'
   gem 'spring'
   gem 'brakeman'
 end
