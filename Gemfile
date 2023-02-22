@@ -17,12 +17,15 @@ gem "web-console", group: :development
 
 group :development, :test do
   gem "sqlite3"
-  gem "debug"
   gem "spring"
   gem "brakeman"
   gem "standard"
   gem "ruby_audit"
   gem "spektr"
+end
+
+group :development do
+  gem "debug"
 end
 
 group :production do
