@@ -9,9 +9,10 @@ gem "terser"
 gem "jquery-rails"
 gem "turbolinks"
 gem "jbuilder"
-gem "rails-html-sanitizer"
-gem "sdoc", group: :doc
 gem "overcommit"
+gem "rails-html-sanitizer"
+
+gem "sdoc", group: :doc
 
 gem "web-console", group: :development
 
