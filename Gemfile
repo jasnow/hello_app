@@ -16,6 +16,8 @@ gem "sdoc", group: :doc
 
 gem "web-console", group: :development
 
+gem 'mini_racer', platform: :ruby
+
 group :development, :test do
   gem "sqlite3"
   gem "spring"
