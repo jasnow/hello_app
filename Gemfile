@@ -28,10 +28,6 @@ group :development, :test do
   gem "spektr"
 end
 
-group :development do
-  gem "debug"
-end
-
 group :production do
   # HID  gem 'pg' # HID on 10/3/2020
   gem "rails_12factor"
