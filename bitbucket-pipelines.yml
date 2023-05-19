@@ -3,7 +3,7 @@
 #  This template allows you to validate your Ruby code.
 #  The workflow allows running tests and code linting on the default branch.
 
-image: ruby:3.2.2
+image: ruby:3.3.0-preview1
 
 pipelines:
   default:
