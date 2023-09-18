@@ -4,6 +4,9 @@ gem "rails", "7.0.8"
 
 ruby File.read(".ruby-version")
 
+gem "bigdecimal"
+gem "mutex_m"
+
 gem "sassc-rails"
 gem "terser"
 gem "jquery-rails"

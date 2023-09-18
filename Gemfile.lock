@@ -68,6 +68,7 @@ GEM
       tzinfo (~> 2.0)
     ast (2.4.2)
     base64 (0.1.1)
+    bigdecimal (3.1.4)
     bindex (0.8.1)
     brakeman (6.0.1)
     builder (3.2.4)
@@ -119,6 +120,7 @@ GEM
     mini_racer (0.8.0)
       libv8-node (~> 18.16.0.0)
     minitest (5.20.0)
+    mutex_m (0.1.2)
     net-imap (0.3.7)
       date
       net-protocol
@@ -309,10 +311,12 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bigdecimal
   brakeman
   jbuilder
   jquery-rails
   mini_racer
+  mutex_m
   overcommit
   rails (= 7.0.8)
   rails-html-sanitizer
