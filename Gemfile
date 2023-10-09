@@ -4,7 +4,6 @@ gem "rails", "7.1.0"
 
 ruby File.read(".ruby-version")
 
-gem "bigdecimal"
 gem "mutex_m"
 
 gem "sassc-rails"

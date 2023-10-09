@@ -334,7 +334,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bigdecimal
   brakeman
   jbuilder
   jquery-rails
