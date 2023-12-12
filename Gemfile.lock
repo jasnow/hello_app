@@ -97,7 +97,7 @@ GEM
     ffi (1.16.3)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    haml (6.2.4)
+    haml (6.3.0)
       temple (>= 0.8.2)
       thor
       tilt
@@ -136,7 +136,7 @@ GEM
       libv8-node (~> 18.16.0.0)
     minitest (5.20.0)
     mutex_m (0.2.0)
-    net-imap (0.4.7)
+    net-imap (0.4.8)
       date
       net-protocol
     net-pop (0.1.2)
