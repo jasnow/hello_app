@@ -119,8 +119,12 @@ GEM
     json (2.7.1)
     language_server-protocol (3.17.0.3)
     libv8-node (18.16.0.0)
+    libv8-node (18.16.0.0-aarch64-linux)
+    libv8-node (18.16.0.0-aarch64-linux-musl)
+    libv8-node (18.16.0.0-arm64-darwin)
     libv8-node (18.16.0.0-x86_64-darwin)
     libv8-node (18.16.0.0-x86_64-linux)
+    libv8-node (18.16.0.0-x86_64-linux-musl)
     lint_roller (1.1.0)
     loofah (2.22.0)
       crass (~> 1.0.2)
@@ -147,8 +151,20 @@ GEM
     net-smtp (0.4.0)
       net-protocol
     nio4r (2.7.0)
-    nokogiri (1.15.5)
+    nokogiri (1.16.0)
       mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    nokogiri (1.16.0-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.0-arm-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.0-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.0-x86-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.0-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.0-x86_64-linux)
       racc (~> 1.4)
     overcommit (0.61.0)
       childprocess (>= 0.6.3, < 5)
@@ -275,8 +291,14 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.9)
+    sqlite3 (1.7.0)
       mini_portile2 (~> 2.8.0)
+    sqlite3 (1.7.0-aarch64-linux)
+    sqlite3 (1.7.0-arm-linux)
+    sqlite3 (1.7.0-arm64-darwin)
+    sqlite3 (1.7.0-x86-linux)
+    sqlite3 (1.7.0-x86_64-darwin)
+    sqlite3 (1.7.0-x86_64-linux)
     standard (1.33.0)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
@@ -330,9 +352,16 @@ GEM
     zeitwerk (2.6.12)
 
 PLATFORMS
+  aarch64-linux
+  aarch64-linux-musl
+  arm-linux
+  arm64-darwin
   ruby
+  x86-linux
+  x86_64-darwin
   x86_64-darwin-16
   x86_64-linux
+  x86_64-linux-musl
 
 DEPENDENCIES
   brakeman
